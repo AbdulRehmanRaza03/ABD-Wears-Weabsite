@@ -6,7 +6,7 @@ export const CATEGORIES = [
   { id: 'sale', name: 'Sale', icon: '🔥' },
 ];
 
-export const INITIAL_PRODUCTS = [
+export const INITIAL_PRODUCTS = [  
   // MEN
   {
     id: 1, name: 'Onyx Structured Blazer', category: 'men',

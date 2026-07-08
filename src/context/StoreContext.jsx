@@ -97,7 +97,7 @@ export function StoreProvider({ children }) {
     setUser({ name, email });
     showToast(`Welcome, ${name}!`);
     return true;
-  }, [showToast]);
+  }, [showToast]); 
 
   const login = useCallback((email, password) => {
     const users = load('abd_users', []);
